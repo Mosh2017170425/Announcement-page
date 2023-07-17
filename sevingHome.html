@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serving Home</title>
+    <style>
+		body{
+			padding:0px;
+			margin:0px;
+		}
+        @media (max-width: 849.99999px) {
+            .titleDiv {
+                border: none;
+                border-radius: 0px;
+                background-color: transparent;
+            }
+
+            .titlecontainer {
+                margin: 0px auto;
+                width: 100%;
+
+            }
+
+            .contentDiv {
+                width: 100%;
+            }
+            .detailsDiv
+        {
+            width:90%;
+        
+        }
+            .GIS {
+                width: 90%;
+            }
+        }
+
+        @media (min-width: 850px) {
+            .titleDiv {
+                border: 3px dashed black;
+                border-radius: 40px;
+                background-color: rgb(224, 225, 226);
+            }
+            .detailsDiv
+        {
+            width:80%;
+        }
+            .contentDiv {
+                width: 60%;
+            }
+            .GIS {
+                width: 45%;
+            }
+        }
+
+        h1 {
+            margin: 0px;
+            font-weight: bolder;
+            font-size: 50px;
+
+        }
+
+        h3 {
+            margin: 0px;
+        }
+
+        .title {
+            color: red;
+        }
+
+        .subtitle {
+            margin: 0px;
+        }
+
+        .head {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: rgb(240, 240, 241);
+        }
+
+        .titleDiv {
+
+            height: 120px;
+
+
+        }
+
+        .contentDiv,
+        .titleDiv {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contentDiv {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .contentEn {
+            color: rgb(7, 212, 248);
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+        .contentH1 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+
+        .content {
+
+            background-image: url("./mm.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 10px;
+        }
+
+        .GIS {
+            font-size: 1.5rem;
+            /* padding: 20px; */
+            margin-bottom: 20px;
+            border-radius: 30px;
+            border: 2px solid black;
+            background-color: rgba(255, 255, 255, 0.664);
+        }
+        .detailsDiv
+        {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.589);
+
+        }
+
+        .details
+        {
+            font-size: 2rem;
+            border-bottom: 1px solid black;
+            margin:0px;
+        }
+        pre{
+            margin:0px;
+            padding: 0px;
+            white-space: pre-line;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height:140%;
+            font-weight:bold;
+            color: rgb(10, 10, 10);
+        }
+        .footer
+        {
+            background-color: rgb(240, 240, 241);
+        }
+        .contactUs p,.address p{
+            margin: 5px;
+        }
+        .contactUs{
+            background-color: red;
+            /* width:95%; */
+        }
+        .address
+        {
+            background-color: rgb(155, 155, 155);
+            /* width:95%; */
+        }
+        .contactUs,.address
+        {
+            text-align: center;
+            margin: auto;
+            font-size:1.2rem;
+            font-weight: bold;
+            color: white;
+            padding:0.5px;
+
+        }
+        .info
+        {
+            display: flex;
+            justify-content: space-between;
+            border: 2px dashed black;
+            padding: 10px;
+            /* padding-right:10px; */
+        }
+        .info span{
+
+            font-size: 1.4rem;
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="titlecontainer">
+            <div class="titleDiv">
+                <h1 class="title"> Pro.maps </h1>
+                <h1 class="subtitle">Gis&rs</h1>
+            </div>
+        </div>
+
+        <div class="contentDiv">
+            <p class="contentH1">
+                محتويات
+            </p>
+            <h1>
+                دورة نظم المعلومات الجغرافية
+            </h1>
+            <p class="contentEn">
+                ArcGIS Programs & Google earth pro…more
+            </p>
+        </div>
+    </div>
+    <div class="content">
+            <div class="row">
+                <div class="GIS">
+                    <pre>
+                        What is a GIS
+                        Type of data (attribute – spatial)
+                        GIS software
+                        GIS usage
+                        Explore ( Arcmap ,Acrcatloge)
+                        Map Projections
+                        Coordinate systems
+                        ArcGIS Data
+                        Raster and vector
+                    </pre>
+                </div>
+                <div class="GIS">
+                    <pre>
+                        What is a Georefrencing
+                        Georefrencing toolbar
+                        Add control points
+                        Editing error
+                        Spatial adjustment
+                        Export to Arc global Google earth
+                        gps utility program
+                    </pre>
+                </div>
+            </div>
+            <div class="row">
+                <div class="GIS">
+                    <pre>
+                        What is a Geodatabase
+                        Geodatabase structur
+                        Build database
+                        Create feature , table , fields
+                        Subtype - domain
+                    </pre>
+                </div>
+                <div class="GIS">
+                    <pre>
+                        Clipping (Regular and irregular)
+                        Mosaic
+                        Digitizing from image & satellite image
+                        Editing
+                    </pre>
+                </div>
+            </div>
+            <div class="detailsDiv">
+                <pre class="details">
+                    Advanced Editing
+                    Selection ( location , attribute
+                    Layer properties
+                    General – source – selection – display – fields – definition - Query
+                    Attribute
+                    Sort – calculation – summarize – statistics -
+                    Join & relates
+                </pre>
+                
+                <pre class="details">
+                    Google earth pro
+                    Draw - Export data – Recording - image
+                     Download satellite image
+                    Link in Arcmap
+                    Hyperlink
+                </pre>
+                <pre class="details">
+                    Report & Graphs
+                    Map layout
+                    Symbology
+                </pre>
+                <pre class="details">
+                    Applied to projects
+                </pre>
+            </div>
+        <div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contactUs">
+            <p>
+                For Booking ( mob 010653942 / 01140808124)
+            </p>
+        </div>
+        <div class="address">
+            <p>
+                الدور السادس 59 ش أيران , متفرع مه شارع محي الديه ابو العز , محطت مترو البحوث 
+            </p>
+        </div>
+        <div class="info">
+            <span>
+                GIS & RS
+            </span>
+            <span>
+                Pro.maps
+            </span>
+            <span>
+                Training
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
